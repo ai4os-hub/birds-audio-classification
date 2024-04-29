@@ -13,7 +13,7 @@
         "which has around 350K samples covering 10K species. As an initial assessment we have trained the model on the",
         "73 most popular species, which account for roughly 20% of all observations.\n",
 
-        "<img class='fit' width=550 src='https://raw.githubusercontent.com/deephdc/DEEP-OC-birds-audio-classification-tf/master/images/workflow-birds.png'/>\n",
+        "<img class='fit' width=550 src='https://raw.githubusercontent.com/ai4oshub/birds-audio-classification/master/images/workflow-birds.png'/>\n",
 
         "This service is based in the [Audio Classification with Tensorflow](./deep-oc-audio-classification-tf.html) model.\n",
 
@@ -27,14 +27,14 @@
     "dataset_url": "https://doi.org/10.15468/qv0ksn",
     "date_creation": "2020-04-01",
     "sources": {
-		"dockerfile_repo": "https://github.com/deephdc/DEEP-OC-birds-audio-classification-tf",
-		"docker_registry_repo": "deephdc/deep-oc-birds-audio-classification-tf",
+		"dockerfile_repo": "https://github.com/ai4os-hub/birds-audio-classification",
+		"docker_registry_repo": "ai4oshub/birds-audio-classification",
 		"code": "https://github.com/deephdc/audio-classification-tf",
         "pre_trained_weights": "https://cephrgw01.ifca.es:8080/swift/v1/audio-classification-tf/"
 	},
     "continuous_integration": {
-        "build_status_badge": "https://jenkins.indigo-datacloud.eu/buildStatus/icon?job=Pipeline-as-code/DEEP-OC-org/DEEP-OC-birds-audio-classification-tf/master",
-        "build_status_url": "https://jenkins.indigo-datacloud.eu/job/Pipeline-as-code/job/DEEP-OC-org/job/DEEP-OC-birds-audio-classification-tf/job/master"
+        "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/birds-audio-classification/main",
+        "build_status_url": "https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/birds-audio-classification/job/main/"
     },
     "tosca": [
         {
