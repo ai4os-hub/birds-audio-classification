@@ -13,7 +13,7 @@
         "which has around 350K samples covering 10K species. As an initial assessment we have trained the model on the",
         "73 most popular species, which account for roughly 20% of all observations.\n",
 
-        "<img class='fit' width=550 src='https://raw.githubusercontent.com/ai4oshub/birds-audio-classification/master/images/workflow-birds.png'/>\n",
+        "<img class='fit' width=550 src='https://raw.githubusercontent.com/ai4os-hub/birds-audio-classification/main/images/workflow-birds.png'/>\n",
 
         "This service is based in the [Audio Classification with Tensorflow](./deep-oc-audio-classification-tf.html) model.\n",
 
@@ -29,8 +29,9 @@
     "sources": {
 		"dockerfile_repo": "https://github.com/ai4os-hub/birds-audio-classification",
 		"docker_registry_repo": "ai4oshub/birds-audio-classification",
-		"code": "https://github.com/deephdc/audio-classification-tf",
-        "pre_trained_weights": "https://cephrgw01.ifca.es:8080/swift/v1/audio-classification-tf/"
+		"code": "https://github.com/ai4os-hub/ai4os-audio-classification-tf",
+                "pre_trained_weights": "https://cephrgw01.ifca.es:8080/swift/v1/audio-classification-tf/",
+                "ai4_template": "ai4-template-child/1.9.9"
 	},
     "continuous_integration": {
         "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/birds-audio-classification/main",
