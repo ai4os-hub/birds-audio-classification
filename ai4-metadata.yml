@@ -1,0 +1,27 @@
+metadata_version: 2.0.0
+title: Bird sound classifier
+summary: Classify audio files among bird species from the Xenocanto dataset.
+description: '"**CAUTION: This module is in a development stage. Predictions might still not be reliable enough.** \n" "This is a plug-and-play tool to perform bird sound classification with Deep Learning." "The PREDICT method expects an audio file as input (or the url of a audio file) and will return a JSON with " "the top 5 predictions. Most audio file formats are supported (see [FFMPEG](https://www.ffmpeg.org/) compatible formats).\n" "We use the [Xenocanto dataset](https://www.gbif.org/dataset/b1047888-ae52-4179-9dd5-5448ea342a24) [1]" "which has around 350K samples covering 10K species. As an initial assessment we have trained the model on the" "73 most popular species, which account for roughly 20% of all observations.\n" "<img class=''fit'' width=550 src=''https://raw.githubusercontent.com/ai4os-hub/birds-audio-classification/main/images/workflow-birds.png''/>\n" "This service is based in the [Audio Classification with Tensorflow](./deep-oc-audio-classification-tf.html) model.\n" "**References**\n" "[1]: Vellinga W (2019). [Xeno-canto - Bird sounds from around the world](https://doi.org/10.15468/qv0ksn). Xeno-canto Foundation for Nature Sounds. Occurrence dataset https://doi.org/10.15468/qv0ksn accessed via GBIF.org on 2019-10-25.\n"'
+dates:
+  created: '2020-04-01'
+  updated: '2024-08-12'
+links:
+  source_code: https://github.com/ai4os-hub/ai4os-audio-classification-tf
+  docker_image: ai4oshub/birds-audio-classification
+  weights: https://cephrgw01.ifca.es:8080/swift/v1/audio-classification-tf/
+  ai4_template: ai4-template-child/1.9.9
+  dataset: https://doi.org/10.15468/qv0ksn
+tags:
+- tensorflow
+- docker
+- deep learning
+- trainable
+- inference
+- pre-trained
+- audio classification
+- api-v2
+- beta
+tasks: []
+categories: []
+libraries:
+- TensorFlow
