@@ -14,7 +14,7 @@ dates:
   created: '2020-04-01'
   updated: '2024-08-12'
 links:
-  source_code: https://github.com/ai4os-hub/ai4os-audio-classification-tf
+  source_code: https://github.com/ai4os-hub/birds-audio-classification
   docker_image: ai4oshub/birds-audio-classification
   weights: https://cephrgw01.ifca.es:8080/swift/v1/audio-classification-tf/
   ai4_template: ai4-template-child/1.9.9
