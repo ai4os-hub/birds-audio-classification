@@ -19,6 +19,7 @@ links:
   weights: https://cephrgw01.ifca.es:8080/swift/v1/audio-classification-tf/
   ai4_template: ai4-template-child/1.9.9
   dataset: https://doi.org/10.15468/qv0ksn
+  base_model: https://github.com/ai4os-hub/ai4os-audio-classification-tf
 tags:
   - deep learning
   - audio classification
